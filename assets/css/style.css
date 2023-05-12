@@ -166,8 +166,8 @@ li {
     padding-right: 20px;
 }
 
-#break {
-    padding: 100px;
+#break-1 {
+    padding: 75px;
 }
 
 #work-aside {
@@ -177,8 +177,8 @@ li {
     padding-right: 20px;
 }
 
-#break {
-    padding: 150px;
+#break-2 {
+    padding: 540px;
 }
 
 #contact-me-aside {
@@ -191,15 +191,16 @@ li {
 #work-grid {
     border-left: 5px solid black;
     padding-left: 20px;
-    position: relative;
+}
 
+.relative {
+    position: relative;
 }
 
 .text-block {
   position: absolute;
   text-align:left;
   bottom: 20px;
-  left: 20px;
   background-color: black;
   color: white;
   padding-left: 20px;
@@ -211,7 +212,7 @@ h4 {
 }
 
 .shell {
-    height: 300px;
+    height: 500px;
     border: 5px solid black;
 }
 
@@ -223,18 +224,79 @@ h4 {
     background-position: left;
 }
 
-
-/* border-left: 5px solid black; 
-margin-bottom: 20px;
-    padding: 50px;
+.fountain {
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 515px;
+    border: 5px solid black;
+}
 
+.lily {
+    height: 300px;
+    width: 515px;
+    border: 5px solid black;
+    display: inline-block;
+}
 
-    margin-left: 200px;
-    padding: 10px;
-    clear: both;
-    float: left;
-    width: 20%;
-    height: 100%;
-    text-align:right
+.pads {
+    height: 300px;
+    width: 515px;
+    border: 5px solid black;
+}
+
+.sunset {
+    height: 300px;
+    width: 515px;
+    border: 5px solid black;
+    display:inline-flexbox;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sunset hover {
+    background-color: rgb(34, 0, 255);
+  }
+
+  img {
+      filter: opacity(50%);
+    }
+
+img:hover {
+    filter: none;
+ }
+
+ .contact-me-content {
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid black;
+    padding-left: 20px;
+
+}
+
+#break-3 {
+    padding: 20px;
+}
+
+.info {
+    font-size: 30px;
+    border-bottom: 3px solid black;
+}
+
+@media screen and (max-width: 992px) {
+    .first-row {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .second-row {
+      width: 50%;
+    }
+  }
