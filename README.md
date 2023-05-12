@@ -7,3 +7,4 @@ This project displayed my knowledge of HTML and CSS to set up a portfolio webpag
 https://halleklum.github.io/Halle-Portfolio/
 
 <img width="1438" alt="Screen Shot 2023-05-11 at 11 58 34 PM" src="https://github.com/halleklum/Halle-Portfolio/assets/128300265/fa609987-5239-44f3-8643-067f216cfdef">
+<img width="1440" alt="Screen Shot 2023-05-11 at 11 59 09 PM" src="https://github.com/halleklum/Halle-Portfolio/assets/128300265/3530bb5f-0b05-4b67-9e52-168053cba004">
